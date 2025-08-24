@@ -18,7 +18,8 @@ The goal is to demonstrate **data pipeline creation, preprocessing, and analytic
 ## 📂 Dataset
 The full dataset is too large to be uploaded to GitHub.  
 
-- 🔗 [Download Full Dataset (Google Drive)](https://drive.google.com/drive/folders/18OpOv5mRQyL4tS-3Z0Uf3RNEL7YjdeIr?usp=sharing)  
+- 🔗 [Download Full Dataset (Google Drive)](https://drive.google.com/drive/folders/18OpOv5mRQyL4tS-3Z0Uf3RNEL7YjdeIr?usp=sharing)
+-Check out Cleaned_Data.csv, which contains the processed dataset merged from all source files.
 ---
 
 ## 📂 Project Workflow

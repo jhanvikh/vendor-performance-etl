@@ -145,9 +145,5 @@ vendor-performance-etl/
 - Ranked vendors by stock turnover & efficiency
 - Built an ETL pipeline for repeatable analysis
 
-## 🛠️ Tech Stack
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
-- SQLite (Data storage & queries)
-- Jupyter Notebook
-- ETL Workflow (Extract → Transform → Load)
+
 

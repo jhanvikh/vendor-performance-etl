@@ -54,24 +54,24 @@ The goal is to demonstrate **data pipeline creation, preprocessing, and analytic
 - High-margin vendors (85th percentile) vs. low-sales vendors (15th percentile) comparison.
 
 ---
+# 📊 Vendor Performance ETL Project
 
 ## 🚀 How to Run
 
 1. Clone this repository:
-   ```bash
    git clone https://github.com/jhanvikh/vendor-performance-etl.git
    cd vendor-performance-etl
-Install dependencies:
-pip install pandas numpy matplotlib seaborn
 
-Run Jupyter Notebook:
-jupyter notebook
-Then open notebooks/vendor_analysis.ipynb and run the cells.
-Open notebooks/vendor_analysis.ipynb and execute the cells.
+2. Install dependencies:
+   pip install pandas numpy matplotlib seaborn
 
+3. Run Jupyter Notebook:
+   jupyter notebook
 
-📂 Folder Structure
-vendor-performance-data-engineering/
+   Then open notebooks/vendor_analysis.ipynb and execute the cells.
+
+## 📂 Folder Structure
+vendor-performance-etl/
 │── data/                     # Raw & processed data files
 │   ├── inventory.db
 │   ├── vendor_data.csv
@@ -88,24 +88,15 @@ vendor-performance-data-engineering/
 │
 │── README.md                 # Project documentation
 
+## 📈 Key Insights
+- Identified top vendors by Total Purchase Contribution
+- Filtered outliers in sales & profitability
+- Ranked vendors by stock turnover & efficiency
+- Built an ETL pipeline for repeatable analysis
 
+## 🛠️ Tech Stack
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- SQLite (Data storage & queries)
+- Jupyter Notebook
+- ETL Workflow (Extract → Transform → Load)
 
-📈 Key Insights
-
-Identified top vendors by Total Purchase Contribution
-
-Filtered outliers in sales & profitability
-
-Ranked vendors by stock turnover & efficiency
-
-Built ETL pipeline for repeatable analysis
-
-🛠️ Tech Stack
-
-Python (Pandas, NumPy, Matplotlib, Seaborn)
-
-SQLite (Data storage & queries)
-
-Jupyter Notebook
-
-ETL Workflow (Extract → Transform → Load)

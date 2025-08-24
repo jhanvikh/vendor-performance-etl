@@ -92,7 +92,7 @@ vendor-performance-etl/
 │
 └── README.md                 # Project documentation
 
-
+```
 
 ## 📈 Key Insights
 - Identified top vendors by Total Purchase Contribution

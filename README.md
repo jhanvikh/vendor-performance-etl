@@ -72,21 +72,22 @@ The goal is to demonstrate **data pipeline creation, preprocessing, and analytic
 
 ## 📂 Folder Structure
 vendor-performance-etl/
-│── data/                     # Raw & processed data files
-│   ├── inventory.db
-│   ├── vendor_data.csv
 │
-│── notebooks/                # Jupyter Notebooks
-│   ├── vendor_analysis.ipynb
+├── data/ # Raw & processed data files
+│ ├── inventory.db
+│ ├── vendor_data.csv
 │
-│── scripts/                  # Python scripts for ETL
-│   ├── extract.py
-│   ├── transform.py
-│   ├── load.py
+├── notebooks/ # Jupyter Notebooks
+│ └── vendor_analysis.ipynb
 │
-│── visuals/                  # Plots & graphs
+├── scripts/ # Python scripts for ETL
+│ ├── extract.py
+│ ├── transform.py
+│ └── load.py
 │
-│── README.md                 # Project documentation
+├── visuals/ # Plots & graphs
+│
+└── README.md # Project documentation
 
 
 ## 📈 Key Insights

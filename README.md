@@ -71,31 +71,37 @@ The full dataset is too large to be uploaded to GitHub.
    pip install pandas numpy matplotlib seaborn
 
 3. Run Jupyter Notebook:
-   jupyter notebook
+   Then open notebooks/vendor_performance_analysis.ipynb & Exploratory Data Analysis.ipynb then execute the cells.
 
-   Then open notebooks/vendor_analysis.ipynb and execute the cells.
-
-## 📂 Folder Structure
 ## 📂 Folder Structure
 
 ```text
 vendor-performance-etl/
 │
-├── data/                     # Raw & processed data files
-│   ├── inventory.db
-│   ├── vendor_data.csv
+├── Cleaned_Data/                        # processed data files
+│   ├── vendor_sales_summary.xls
+|
+├── data/                                # Raw  data files
+│   ├── end_inventory.csv
+│   ├── purchase_prices.csv
+│   ├── begin_inventory.csv
+│   ├── purchases.csv
+│   ├── sales.csv
+│   ├── vendor_invoice.csv
 │
-├── notebooks/                # Jupyter Notebooks
-│   └── vendor_analysis.ipynb
+├── notebooks/                           # Jupyter Notebooks
+│   ├── vendor_performance_analysis.ipynb
+|   ├── Exploratory Data Analysis.ipynb
 │
-├── scripts/                  # Python scripts for ETL
-│   ├── extract.py
-│   ├── transform.py
-│   └── load.py
+├── scripts/                             # Python scripts for ETL
+│   ├── et_vendor_summary.log
+│   ├── ingestion_db.py
 │
-├── visuals/                  # Plots & graphs
-│
-└── README.md                 # Project documentation
+├── logs/                                # Logs of Ingestion and summary table
+│   ├── get_vendor_summary.log
+│   ├── injestion_db.log
+| 
+└── README.md                            # Project documentation
 
 ```
 

@@ -52,6 +52,7 @@ The full dataset is too large to be uploaded to GitHub.
 - Stock turnover performance heatmaps.
 
 ---
+
 ## 📊 Exploratory Data Analysis (EDA)
 
 ### 🔎 Negative or Zero Values Detected
@@ -66,7 +67,9 @@ The full dataset is too large to be uploaded to GitHub.
 ### 🔗 Correlation Analysis
 - Weak between **Purchase Price & Profit**  
 - Strong between **Purchase Qty & Sales Qty** (0.999)  
-- Negative between **Profit Margin & Sales Price** (-0.179)  
+- Negative between **Profit Margin & Sales Price** (-0.179)
+  
+---
 
 ### ❓ Research Questions & Key Findings
 - **Brands for Promotions:** 198 brands with low sales but high profit margins  

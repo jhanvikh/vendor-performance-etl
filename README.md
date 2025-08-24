@@ -52,6 +52,36 @@ The full dataset is too large to be uploaded to GitHub.
 - Stock turnover performance heatmaps.
 
 ---
+## 📊 Exploratory Data Analysis (EDA)
+
+### 🔎 Negative or Zero Values Detected
+- **Gross Profit:** Min = -52,002.78 (loss-making sales)  
+- **Profit Margin:** Min = -∞ (sales at zero or below cost)  
+- **Unsold Inventory:** Indicates slow-moving stock  
+
+### 📈 Outliers Identified
+- High Freight Costs (up to 257K)  
+- Large Purchase/Actual Prices  
+
+### 🔗 Correlation Analysis
+- Weak between **Purchase Price & Profit**  
+- Strong between **Purchase Qty & Sales Qty** (0.999)  
+- Negative between **Profit Margin & Sales Price** (-0.179)  
+
+### ❓ Research Questions & Key Findings
+- **Brands for Promotions:** 198 brands with low sales but high profit margins  
+- **Top Vendors:** Top 10 vendors = 65.69% of purchases → risk of over-reliance  
+- **Bulk Purchasing Impact:** 72% cost savings per unit in large orders  
+- **Inventory Turnover:** $2.71M worth of unsold inventory  
+
+### 💰 Vendor Profitability
+- **High Vendors:** Mean Margin = 31.17%  
+- **Low Vendors:** Mean Margin = 41.55%  
+
+### 🧪 Hypothesis Testing
+- Statistically significant difference in profit margins → distinct vendor strategies
+
+---
 
 ## 📊 Key Insights
 - Identified top-performing vendors contributing the majority of purchase dollars.
